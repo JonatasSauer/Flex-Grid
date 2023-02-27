@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald&display=swap">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Flex e grid</title>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>Galeria de <span>Linguagens.</span></span></h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque omnis natus nesciunt fugit suscipit ex
+            corporis ipsum nobis aspernatur, ullam aperiam molestias deserunt officia iure, vitae quisquam quaerat ab
+            laborum!</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg" alt="">
+            <div>
+                <h3>Html.</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate harum ea blanditiis,
+                    quisquam modi vero a voluptatum numquam? Illo asperiores architecto libero ducimus delectus ipsam
+                    quasi ullam expedita vel.</p>
+                <div class="btn-flex">
+                    <a href="#" class="btn">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg" alt="">
+            <div>
+                <h3>Css</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate harum ea blanditiis,
+                    quisquam modi vero a voluptatum numquam? Illo asperiores architecto libero ducimus delectus ipsam
+                    quasi ullam expedita vel.</p>
+                <div class="btn-flex">
+                    <a href="#" class="btn">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-right">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg" alt="">
+            <div>
+                <h3>JavaScript</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate harum ea blanditiis,
+                    quisquam modi vero a voluptatum numquam? Illo asperiores architecto libero ducimus delectus ipsam
+                    quasi ullam expedita vel.</p>
+                <div class="btn-flex">
+                    <a href="#" class="btn">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img src="https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_960_720.jpg" alt="">
+            <div>
+                <h3>PHP</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate harum ea blanditiis,
+                    quisquam modi vero a voluptatum numquam? Illo asperiores architecto libero ducimus delectus ipsam
+                    quasi ullam expedita vel.</p>
+                <div class="btn-flex">
+                    <a href="#" class="btn">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-rigth">
+            <img src="https://assets-blog.hostgator.com.br/wp-content/uploads/2021/02/mysql-e-suas-vantagens.webp"
+                alt="">
+            <div>
+                <h3>MySQL</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate harum ea blanditiis,
+                    quisquam modi vero a voluptatum numquam? Illo asperiores architecto libero ducimus delectus ipsam
+                    quasi ullam expedita vel.</p>
+                <div class="btn-flex">
+                    <a href="#" class="btn">Mais detalhes</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <header class="second-header">
+        <h1>Conheça outras opções</h1>
+    </header>
+
+    <div class="galeria">
+        <div style="background-image: url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg);"></div>
+        <div style="background-image: url(https://cdn.pixabay.com/photo/2016/11/23/14/45/coding-1853305_960_720.jpg);"></div>
+        <div style="background-image: url(https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg);"></div>
+        <div style="background-image: url(https://cdn.pixabay.com/photo/2015/09/17/17/25/code-944499_960_720.jpg);"></div>
+        <div style="background-image: url(https://assets-blog.hostgator.com.br/wp-content/uploads/2021/02/mysql-e-suas-vantagens.webp);"></div>
+    </div>
+
+    <script>
+        AOS.init()
+    </script>
+
+</body>
+
+</html>
